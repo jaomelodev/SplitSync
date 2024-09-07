@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3128470F2C8CBBC8005BF134 /* SplitSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3128470E2C8CBBC8005BF134 /* SplitSyncApp.swift */; };
+		312847112C8CBBC8005BF134 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312847102C8CBBC8005BF134 /* ContentView.swift */; };
+		312847132C8CBBC8005BF134 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312847122C8CBBC8005BF134 /* Item.swift */; };
+		312847152C8CBBC9005BF134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312847142C8CBBC9005BF134 /* Assets.xcassets */; };
+		312847182C8CBBC9005BF134 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312847172C8CBBC9005BF134 /* Preview Assets.xcassets */; };
+		312847222C8CBBC9005BF134 /* SplitSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312847212C8CBBC9005BF134 /* SplitSyncTests.swift */; };
+		3128472C2C8CBBCA005BF134 /* SplitSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3128472B2C8CBBCA005BF134 /* SplitSyncUITests.swift */; };
+		3128472E2C8CBBCA005BF134 /* SplitSyncUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3128472D2C8CBBCA005BF134 /* SplitSyncUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3128471E2C8CBBC9005BF134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312847032C8CBBC8005BF134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3128470A2C8CBBC8005BF134;
+			remoteInfo = SplitSync;
+		};
+		312847282C8CBBC9005BF134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312847032C8CBBC8005BF134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3128470A2C8CBBC8005BF134;
+			remoteInfo = SplitSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3128470B2C8CBBC8005BF134 /* SplitSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3128470E2C8CBBC8005BF134 /* SplitSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitSyncApp.swift; sourceTree = "<group>"; };
+		312847102C8CBBC8005BF134 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		312847122C8CBBC8005BF134 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		312847142C8CBBC9005BF134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312847172C8CBBC9005BF134 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3128471D2C8CBBC9005BF134 /* SplitSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312847212C8CBBC9005BF134 /* SplitSyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitSyncTests.swift; sourceTree = "<group>"; };
+		312847272C8CBBC9005BF134 /* SplitSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3128472B2C8CBBCA005BF134 /* SplitSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitSyncUITests.swift; sourceTree = "<group>"; };
+		3128472D2C8CBBCA005BF134 /* SplitSyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitSyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312847082C8CBBC8005BF134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3128471A2C8CBBC9005BF134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312847242C8CBBC9005BF134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312847022C8CBBC8005BF134 = {
+			isa = PBXGroup;
+			children = (
+				3128470D2C8CBBC8005BF134 /* SplitSync */,
+				312847202C8CBBC9005BF134 /* SplitSyncTests */,
+				3128472A2C8CBBC9005BF134 /* SplitSyncUITests */,
+				3128470C2C8CBBC8005BF134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3128470C2C8CBBC8005BF134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3128470B2C8CBBC8005BF134 /* SplitSync.app */,
+				3128471D2C8CBBC9005BF134 /* SplitSyncTests.xctest */,
+				312847272C8CBBC9005BF134 /* SplitSyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3128470D2C8CBBC8005BF134 /* SplitSync */ = {
+			isa = PBXGroup;
+			children = (
+				3128470E2C8CBBC8005BF134 /* SplitSyncApp.swift */,
+				312847102C8CBBC8005BF134 /* ContentView.swift */,
+				312847122C8CBBC8005BF134 /* Item.swift */,
+				312847142C8CBBC9005BF134 /* Assets.xcassets */,
+				312847162C8CBBC9005BF134 /* Preview Content */,
+			);
+			path = SplitSync;
+			sourceTree = "<group>";
+		};
+		312847162C8CBBC9005BF134 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				312847172C8CBBC9005BF134 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		312847202C8CBBC9005BF134 /* SplitSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				312847212C8CBBC9005BF134 /* SplitSyncTests.swift */,
+			);
+			path = SplitSyncTests;
+			sourceTree = "<group>";
+		};
+		3128472A2C8CBBC9005BF134 /* SplitSyncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3128472B2C8CBBCA005BF134 /* SplitSyncUITests.swift */,
+				3128472D2C8CBBCA005BF134 /* SplitSyncUITestsLaunchTests.swift */,
+			);
+			path = SplitSyncUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3128470A2C8CBBC8005BF134 /* SplitSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312847312C8CBBCA005BF134 /* Build configuration list for PBXNativeTarget "SplitSync" */;
+			buildPhases = (
+				312847072C8CBBC8005BF134 /* Sources */,
+				312847082C8CBBC8005BF134 /* Frameworks */,
+				312847092C8CBBC8005BF134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitSync;
+			productName = SplitSync;
+			productReference = 3128470B2C8CBBC8005BF134 /* SplitSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3128471C2C8CBBC9005BF134 /* SplitSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312847342C8CBBCA005BF134 /* Build configuration list for PBXNativeTarget "SplitSyncTests" */;
+			buildPhases = (
+				312847192C8CBBC9005BF134 /* Sources */,
+				3128471A2C8CBBC9005BF134 /* Frameworks */,
+				3128471B2C8CBBC9005BF134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3128471F2C8CBBC9005BF134 /* PBXTargetDependency */,
+			);
+			name = SplitSyncTests;
+			productName = SplitSyncTests;
+			productReference = 3128471D2C8CBBC9005BF134 /* SplitSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		312847262C8CBBC9005BF134 /* SplitSyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312847372C8CBBCA005BF134 /* Build configuration list for PBXNativeTarget "SplitSyncUITests" */;
+			buildPhases = (
+				312847232C8CBBC9005BF134 /* Sources */,
+				312847242C8CBBC9005BF134 /* Frameworks */,
+				312847252C8CBBC9005BF134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312847292C8CBBC9005BF134 /* PBXTargetDependency */,
+			);
+			name = SplitSyncUITests;
+			productName = SplitSyncUITests;
+			productReference = 312847272C8CBBC9005BF134 /* SplitSyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312847032C8CBBC8005BF134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3128470A2C8CBBC8005BF134 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3128471C2C8CBBC9005BF134 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3128470A2C8CBBC8005BF134;
+					};
+					312847262C8CBBC9005BF134 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3128470A2C8CBBC8005BF134;
+					};
+				};
+			};
+			buildConfigurationList = 312847062C8CBBC8005BF134 /* Build configuration list for PBXProject "SplitSync" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 312847022C8CBBC8005BF134;
+			productRefGroup = 3128470C2C8CBBC8005BF134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3128470A2C8CBBC8005BF134 /* SplitSync */,
+				3128471C2C8CBBC9005BF134 /* SplitSyncTests */,
+				312847262C8CBBC9005BF134 /* SplitSyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312847092C8CBBC8005BF134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312847182C8CBBC9005BF134 /* Preview Assets.xcassets in Resources */,
+				312847152C8CBBC9005BF134 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3128471B2C8CBBC9005BF134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312847252C8CBBC9005BF134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312847072C8CBBC8005BF134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312847112C8CBBC8005BF134 /* ContentView.swift in Sources */,
+				312847132C8CBBC8005BF134 /* Item.swift in Sources */,
+				3128470F2C8CBBC8005BF134 /* SplitSyncApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312847192C8CBBC9005BF134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312847222C8CBBC9005BF134 /* SplitSyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312847232C8CBBC9005BF134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3128472E2C8CBBCA005BF134 /* SplitSyncUITestsLaunchTests.swift in Sources */,
+				3128472C2C8CBBCA005BF134 /* SplitSyncUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3128471F2C8CBBC9005BF134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3128470A2C8CBBC8005BF134 /* SplitSync */;
+			targetProxy = 3128471E2C8CBBC9005BF134 /* PBXContainerItemProxy */;
+		};
+		312847292C8CBBC9005BF134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3128470A2C8CBBC8005BF134 /* SplitSync */;
+			targetProxy = 312847282C8CBBC9005BF134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3128472F2C8CBBCA005BF134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		312847302C8CBBCA005BF134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312847322C8CBBCA005BF134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitSync/Preview Content\"";
+				DEVELOPMENT_TEAM = WJAZ3XSD4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jao.app.SplitSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		312847332C8CBBCA005BF134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SplitSync/Preview Content\"";
+				DEVELOPMENT_TEAM = WJAZ3XSD4V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jao.app.SplitSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		312847352C8CBBCA005BF134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJAZ3XSD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jao.app.SplitSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SplitSync";
+			};
+			name = Debug;
+		};
+		312847362C8CBBCA005BF134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJAZ3XSD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jao.app.SplitSyncTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplitSync.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SplitSync";
+			};
+			name = Release;
+		};
+		312847382C8CBBCA005BF134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJAZ3XSD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jao.app.SplitSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplitSync;
+			};
+			name = Debug;
+		};
+		312847392C8CBBCA005BF134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJAZ3XSD4V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jao.app.SplitSyncUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplitSync;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312847062C8CBBC8005BF134 /* Build configuration list for PBXProject "SplitSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3128472F2C8CBBCA005BF134 /* Debug */,
+				312847302C8CBBCA005BF134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312847312C8CBBCA005BF134 /* Build configuration list for PBXNativeTarget "SplitSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312847322C8CBBCA005BF134 /* Debug */,
+				312847332C8CBBCA005BF134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312847342C8CBBCA005BF134 /* Build configuration list for PBXNativeTarget "SplitSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312847352C8CBBCA005BF134 /* Debug */,
+				312847362C8CBBCA005BF134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312847372C8CBBCA005BF134 /* Build configuration list for PBXNativeTarget "SplitSyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312847382C8CBBCA005BF134 /* Debug */,
+				312847392C8CBBCA005BF134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312847032C8CBBC8005BF134 /* Project object */;
+}

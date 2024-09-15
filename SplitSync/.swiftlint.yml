@@ -1,0 +1,7 @@
+line_length:
+  - 200 #warning
+  - 4000 #error
+disabled_rules:
+  - blanket_disable_command
+  - identifier_name
+

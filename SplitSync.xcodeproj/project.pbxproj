@@ -35,6 +35,7 @@
 		312AAF932C977C330023791D /* SplitSyncClientFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AAF922C977C330023791D /* SplitSyncClientFirestore.swift */; };
 		312AAF952C9794D20023791D /* SplitSyncLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312AAF942C9794D20023791D /* SplitSyncLoading.swift */; };
 		312AAF992C9795490023791D /* SwiftfulLoadingIndicators in Frameworks */ = {isa = PBXBuildFile; productRef = 312AAF982C9795490023791D /* SwiftfulLoadingIndicators */; };
+		312AAF9B2C97A3C80023791D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 312AAF9A2C97A3C80023791D /* .gitkeep */; };
 		3188DBAB2C952401003CED76 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3188DBAA2C952401003CED76 /* .swiftlint.yml */; };
 		31936B102C8FC68D003E289A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31936B0F2C8FC68D003E289A /* SplashView.swift */; };
 		31936B132C8FC6BB003E289A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31936B122C8FC6BB003E289A /* SplashViewController.swift */; };
@@ -101,6 +102,7 @@
 		312AAF902C977AE10023791D /* SplitSyncClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitSyncClient.swift; sourceTree = "<group>"; };
 		312AAF922C977C330023791D /* SplitSyncClientFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitSyncClientFirestore.swift; sourceTree = "<group>"; };
 		312AAF942C9794D20023791D /* SplitSyncLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitSyncLoading.swift; sourceTree = "<group>"; };
+		312AAF9A2C97A3C80023791D /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		3188DBAA2C952401003CED76 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		31936B0F2C8FC68D003E289A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		31936B122C8FC6BB003E289A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 			children = (
 				3128476C2C8D4BFA005BF134 /* GoogleServiceDev.plist */,
 				3128476A2C8D4B2A005BF134 /* GoogleServiceProd.plist */,
+				312AAF9A2C97A3C80023791D /* .gitkeep */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 				3188DBAB2C952401003CED76 /* .swiftlint.yml in Resources */,
 				312847512C8CCD86005BF134 /* .gitignore in Resources */,
 				312847682C8D1535005BF134 /* LaunchScreenProd.storyboard in Resources */,
+				312AAF9B2C97A3C80023791D /* .gitkeep in Resources */,
 				3128476D2C8D4BFA005BF134 /* GoogleServiceDev.plist in Resources */,
 				312847182C8CBBC9005BF134 /* Preview Assets.xcassets in Resources */,
 				312847662C8D12BF005BF134 /* LaunchScreenDev.storyboard in Resources */,
